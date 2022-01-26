@@ -13,7 +13,7 @@
   <!-- <link rel="canonical" href="http://localhost:4000/index_hide.html"> -->
   <!-- <link rel="alternate" type="application/rss+xml" title="Nazir's blog" href="http://localhost:4000/feed.xml"> -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <!-- <link rel="stylesheet" href="/path/to/styles/default.min.css"> -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/atom-one-light.min.css">
 
   <style>
     body {
@@ -21,9 +21,11 @@
         margin: auto;
         /* border: 3px solid green; */
         /* padding: 10px; */
+        margin-bottom: 40px;
       }
     div.post {
         padding-top: 80px;
+        padding-bottom: 20px;
       }
     div.loginform {
       max-width: 400px;
@@ -32,8 +34,21 @@
       padding: 10px; */
       }
     div.container {
-      margin-bottom: 50px;
+      margin: 10px;
+      margin: auto;
       }
+    pre {
+      /* font-size: 13px; */
+      /* line-height: 1.42857143; */
+      border: 1px solid #eee;
+      border-radius: 4px;
+      }
+    /* code {
+      background-color: #fafafa;
+      overflow: auto;
+      padding: .2rem .4rem;
+      border-radius: 4px;
+    } */
     </style>
 
 </head>
@@ -47,7 +62,7 @@
   
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fafafa;">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/">Nazir's blog</a>
+      <a class="navbar-brand" href="/"><strong>Nazir's blog</strong></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -60,7 +75,7 @@
             <a class="nav-item nav-link" id="blog" href="/blog">Blog</a>
           </li> -->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link disabled" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Projects
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -80,7 +95,6 @@
       </div>
     </div>
   </nav>
-
   <br />
 
 </header>
@@ -94,15 +108,17 @@
     </div>
 
     <footer> 
-      <!-- Some components require JS -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"> 
     </script>
 
-    <!-- Custom JS from static folder -->
     <script
       type="text/javascript"
       src=""
     ></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
   
 </footer>
 

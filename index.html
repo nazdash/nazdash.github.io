@@ -2,18 +2,17 @@
 layout: default
 ---
 
-<h3>just a blog.</h3>
+<h3>some of my posts.</h3>
 <br/>
 
-<ul>
+<!-- <ul> -->
   {% for post in site.posts %}
       <span class="text-muted">{{ post.date | date: "%b %-d, %Y" }}</span>
       <h5>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h5>
     <br/>
-    <br/>
   {% endfor %}
-</ul>
+<!-- </ul> -->
 
 <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->

@@ -1,0 +1,5 @@
+git add .
+git commit -m "comment"
+git remote add origin https://github.com/nazdash/nazdash.github.io.git
+gitbranch -M main
+git push origin main

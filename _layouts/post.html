@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+  
+    <div class="post">
+      <h3 style="margin-bottom:10px"><strong> {{page.title}} </strong></h3>
+      <hr>
+      <small style="float:left"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+      </small>
+      <small style="float:right"><a href="/">See all posts</a></small>
+      <br/>
+    </div>
+    <br/>
+
+    <div class="container">
+        {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

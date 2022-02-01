@@ -27,6 +27,23 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dashtiev
 github_username:  nazdash
 
+# include:
+#  - _pages
+#  - .htaccess
+
+# collections:
+#   - somefolder
+
+
+# include:
+#   - _pages
+
+# defaults:
+#   - scope:
+#       path: 'pages'
+#     values:
+#       permalink: /:basename/
+
 # markdown: kramdown
 # highlighter: rouge
 

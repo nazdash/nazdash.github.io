@@ -1,13 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nazir's blog</title>
+    <title>Nazir's website</title>
     <description>This is a website i'm using to write my thoughts outside of twitter. Sometimes I put here my random side projects.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 27 Jan 2022 00:09:31 +0300</pubDate>
-    <lastBuildDate>Thu, 27 Jan 2022 00:09:31 +0300</lastBuildDate>
+    <pubDate>Tue, 01 Feb 2022 21:30:14 +0300</pubDate>
+    <lastBuildDate>Tue, 01 Feb 2022 21:30:14 +0300</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Blockchain and a banking system</title>
+        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;This post is in progress&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s look at banking systems in the majority of modern countries. Basically, it has 3 layers of data exchange:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;(1) the Central Bank (CB) database, exchange between the CB and commercial banks, to keep comm banks level ledger;&lt;/li&gt;
+  &lt;li&gt;(2) interbanking data exchange, exchange directly between banks, like SWIFT;&lt;/li&gt;
+  &lt;li&gt;(3) comm bank database, exchange between users of one bank, to keep users level ledger.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Interesting that if we’re looking only at these data layers, w/o looking at other non-data mechanisms within this system, all layers are similar to layers we have at modern blockchain systems, for example, in Bitcoin/Lightning:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;L(1) - Bitcoin blockchain, exchange between main blockchain and lightning nodes;&lt;/li&gt;
+  &lt;li&gt;L(2) - Lightning payment channel, similar to SWIFT, exchange directly between lightning nodes;&lt;/li&gt;
+  &lt;li&gt;L(3) - Lightning nodes, similar to bank database, exchange between users of one node.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;History rhymes. Or not?&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Feb 2022 17:28:14 +0300</pubDate>
+        <link>http://localhost:4000/general/2022/02/01/blockchain-and-a-banking-system.html</link>
+        <guid isPermaLink="true">http://localhost:4000/general/2022/02/01/blockchain-and-a-banking-system.html</guid>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+      <item>
+        <title>Crowdworking and web3</title>
+        <description>&lt;p&gt;Crowdwork organizations are a very necessary part of our future.&lt;br /&gt;
+Today companies like Mturk, Scale, Toloka, Hive and many others solving a crucial part of AI - data labeling. But crowd work is so much more than that and should drive other industries.&lt;/p&gt;
+
+&lt;p&gt;The core idea behind crowdwork tools is to divide a complex task into simple ones, give those simple tasks to many people, collect the results and use algorithms to combine them in one good result.&lt;/p&gt;
+
+&lt;p&gt;Some examples:&lt;br /&gt;
+a) Labeling for CV (computer vision): take an image, send an image to many people, ask them to find needed objects and label them, collect results, use algorithms to keep the good results and ignore bad ones, combine in one result and give it back to the customer.&lt;br /&gt;
+b) Labeling for CV v2: ask someone to label an image, send labeled image to many people, ask them to give binary answers is it correct or not, use algorithms to make a decision, if labeling was correct send a labeled image back to the customer. (b) is usually cheaper than (a).&lt;br /&gt;
+c) Catalog mapping for e-commerce goods: take goods w/ descriptions, send to people, ask to attach the category, then ask many other people to answer is it correct category for a particular good or not, use algorithms to make a decision for each good-category, send results back.&lt;/p&gt;
+
+&lt;p&gt;Each of the examples above is just a part of bigger pipelines that companies can build using crowdwork tools.&lt;/p&gt;
+
+&lt;p&gt;ML models usually are part of the software stack and can solve some tasks in combinations with humans (HITL) or w/o them.&lt;/p&gt;
+
+&lt;p&gt;Today crowdwork tools are mainly used in AI/ML industry to prepare datasets for machine learning, but I believe crowd work applications could be used in a lot of other industries: support, call-centers, maps creation, paperwork automation, back-office functions, accounting, etc. It’s all just a tiny piece of the addressable market.&lt;/p&gt;
+
+&lt;p&gt;The huge BPO industry, &lt;strong&gt;~$250B&lt;/strong&gt; in 2021, could be almost completely replaced by such crowdwork organizations.&lt;/p&gt;
+
+&lt;p&gt;The majority of micro-tasks workers are living in Third World countries and such jobs are one of the few opportunities for them to be a part of the global economy.
+And a big part of profits taken in such markets like BPO can be distributed directly to all those workers.&lt;/p&gt;
+
+&lt;p&gt;Besides that crowdwork tools could be also a way to gain knowledge from well-paid and experienced individuals, e.g. doctors, to build systems based on their combined knowledge.&lt;/p&gt;
+
+&lt;p&gt;Read this small article about it &lt;a href=&quot;https://www.cnbc.com/2016/06/15/alphabets-eric-schmidt-predicts-what-spark-the-next-100-billion-firm.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now with web3 taking off, I’m thinking about how crowdworking/crowdsourcing idea can evolve further.&lt;/p&gt;
+
+&lt;p&gt;It seems like both these decentralization-driven narratives should help each other to thrive.&lt;/p&gt;
+
+&lt;p&gt;Imagine a crowdwork-based DAO where all the software for “dispatching” micro-tasks and algorithms to verify the results are made by the community and open-sourced.&lt;/p&gt;
+
+&lt;p&gt;People who will work in such DAO to solve tasks will be paid in crypto-native currency and have governance rights.&lt;/p&gt;
+
+&lt;p&gt;This crypto token should be backed by real profits from the already existing market and thus have real value behind it from the first days.&lt;/p&gt;
+
+&lt;p&gt;Developers who will work on the product side of this tool will be also incentivized by this token, which aligns them with workers who perform tasks on the platform and puts both sides in a very short loop.&lt;/p&gt;
+
+&lt;p&gt;I think right now we’re in the moment when both crowdworking and web3 movements should be combined to try to build something really meaningful for a lot of people around the globe.&lt;/p&gt;
+
+&lt;p&gt;If you’re working on something like that or want to explore this idea further, let’s connect.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 04 Jan 2022 20:06:00 +0300</pubDate>
+        <link>http://localhost:4000/general/2022/01/04/crowdworking-and-web3.html</link>
+        <guid isPermaLink="true">http://localhost:4000/general/2022/01/04/crowdworking-and-web3.html</guid>
+        
+        
+        <category>general</category>
+        
+      </item>
     
   </channel>
 </rss>

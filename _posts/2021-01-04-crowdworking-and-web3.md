@@ -5,7 +5,10 @@ date:   2022-01-04 17:06:00 +0000
 categories: general
 ---
 
-Crowdwork organizations are a very necessary part of our future.\
+*Originally posted [on my twitter](twitter.com/dashtiev)*
+
+Crowdwork organizations are a very necessary part of our future.
+
 Today companies like Mturk, Scale, Toloka, Hive and many others solving a crucial part of AI - data labeling. But crowd work is so much more than that and should drive other industries.
 
 The core idea behind crowdwork tools is to divide a complex task into simple ones, give those simple tasks to many people, collect the results and use algorithms to combine them in one good result. 

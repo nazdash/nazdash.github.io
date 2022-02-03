@@ -5,13 +5,15 @@
     <description>This is a website i'm using to write my thoughts outside of twitter. Sometimes I put here my random side projects.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Feb 2022 01:36:53 +0300</pubDate>
-    <lastBuildDate>Wed, 02 Feb 2022 01:36:53 +0300</lastBuildDate>
+    <pubDate>Thu, 03 Feb 2022 23:47:29 +0300</pubDate>
+    <lastBuildDate>Thu, 03 Feb 2022 23:47:29 +0300</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
         <title>Blockchain and a banking system</title>
-        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;This post is in progress&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;twitter.com/dashtiev&quot;&gt;on my twitter&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;This post is in progress&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Let’s look at banking systems in the majority of modern countries. Basically, it has 3 layers of data exchange:&lt;/p&gt;
 &lt;ul&gt;
@@ -39,9 +41,131 @@
       </item>
     
       <item>
+        <title>What is a gas fee</title>
+        <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;twitter.com/dashtiev&quot;&gt;on my twitter&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Basically, Ethereum is a decentralized computer that runs different types of transactions (txns) which could change the blockchain state.&lt;/p&gt;
+
+&lt;p&gt;Some examples of txns are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Send ETH from one account to another&lt;/li&gt;
+  &lt;li&gt;Interact with a smart contract, like swap a token on Uniswap&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All txns are initiated by accounts of the Ethereum network and basically are cryptographically signed instructions for the computer, the so-called Ethereum Virtual Machine (EVM).&lt;/p&gt;
+
+&lt;p&gt;EVM is what defines the rules for computing a new valid state from block to block.&lt;/p&gt;
+
+&lt;p&gt;There’re two types of accounts in Ethereum:&lt;br /&gt;
+a) Account managed by a human&lt;br /&gt;
+b) Account managed by a program (i.e. smart contract)&lt;/p&gt;
+
+&lt;p&gt;Both types of accounts can:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Receive, hold and send ETH and tokens&lt;/li&gt;
+  &lt;li&gt;Interact with deployed smart contracts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A smart contract is a program that “lives inside” a blockchain and can be triggered by txn from another account and execute many different actions, such as transferring tokens or even creating a new contract.&lt;/p&gt;
+
+&lt;p&gt;Since each Ethereum txn requires computational resources to execute, each txn requires a fee and must be mined to become valid.&lt;/p&gt;
+
+&lt;p&gt;“Gas” refers to the fee required to conduct a transaction on Ethereum successfully.&lt;/p&gt;
+
+&lt;p&gt;The simplest and most common txn type is a transfer of ETH from one account to another. Such txn requires 21000 gas to be executed.&lt;/p&gt;
+
+&lt;p&gt;Complex txns, like smart contract creation or smart contract call can cost substantially higher.&lt;/p&gt;
+
+&lt;p&gt;On a high level, the gas fee can be split into two different multipliers:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;[Gas fee] = [Gas units] * [Gas price per unit]&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;[Gas units]&lt;/code&gt; is an amount of computational effort required to execute specific operations on the Ethereum network.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;[Gas price per unit]&lt;/code&gt; is a price depending on the network busyness and denoted in gwei.&lt;/p&gt;
+
+&lt;p&gt;Gwei is 10^-9 ETH.&lt;br /&gt;
+Gwei itself means giga-wei, and it’s equal to 10^9 wei.&lt;br /&gt;
+Wei is the smallest unit of ETH, and it’s equal to 10^-18 ETH.&lt;br /&gt;
+Wei itself is named after Wei Dai, creator of Bitcoin “predecessor” b-money, distributed electronic cash system.&lt;/p&gt;
+
+&lt;p&gt;Calculating gas used to be very complicated, but it was simplified after EIP 1559 implementation (as part of the London Upgrade) in the middle of 2021.&lt;/p&gt;
+
+&lt;p&gt;If your wallet supports EIP 1559 (like Metamask), gas for your txn will be calculated as:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;[Gas price] = [Gas units] * ( [Base fee] + [Priority fee] )&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;It this particular example:
+&lt;code&gt;[Gas price] = 248688 * (168 + 2) * 10^-9 * ETH_price = $128&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/what-is-a-gas-fee/metamask-wallet.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;[Base fee]&lt;/code&gt; is set by the network. It increases and decreases automatically based on network busyness.
+This fee gets burned when it’s paid.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;[Priority fee]&lt;/code&gt; is optional and not burning. It goes to a miner as an incentive to process your txn sooner.&lt;/p&gt;
+
+&lt;p&gt;For example, If you put 0 gwei for [Priority fee] more likely there will be no reason for the miner to include your txn into the block.&lt;br /&gt;
+Without this fee, miners would find it economically viable to mine empty blocks, as they would receive the same block reward.&lt;/p&gt;
+
+&lt;p&gt;You can find actual block base fee and priority fees for different types of txn execution speed (e.g. low, average, high) on various websites.
+For example here: &lt;a href=&quot;https://etherscan.io/gastracker&quot;&gt;https://etherscan.io/gastracker&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/what-is-a-gas-fee/etherscan.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;[Max fee]&lt;/code&gt; includes both &lt;code&gt;[Base fee]&lt;/code&gt; and &lt;code&gt;[Priority fee]&lt;/code&gt; and it’s a maximum amount of fee you’d be willing to pay to a txn.&lt;/p&gt;
+
+&lt;p&gt;Metamask initially sets this amount based on the previous block’s history.&lt;/p&gt;
+
+&lt;p&gt;The higher &lt;code&gt;[Max fee]&lt;/code&gt; is, the more chances txn will be successful in case of a surge in blockchain use (i.e. [Base fee] increase) after txn is submitted.&lt;/p&gt;
+
+&lt;p&gt;So, now we know how fees per gas unit are produced.&lt;/p&gt;
+
+&lt;p&gt;Let’s move to the &lt;code&gt;[Gas limit]&lt;/code&gt; and how it differs from actual gas usage.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/what-is-a-gas-fee/gas-usage.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;[Gas limit]&lt;/code&gt; refers to the maximum amount of gas you are willing to consume on a txn.&lt;/p&gt;
+
+&lt;p&gt;If your gas limit will be lower than the actual amount of gas units needed to execute a txn, txn will be unsuccessful. The EVM then reverts any changes, but the gas will be consumed.&lt;/p&gt;
+
+&lt;p&gt;If we can exactly estimate a &lt;code&gt;[Gas limit]&lt;/code&gt; for a txn it will be equal to actual gas usage.&lt;/p&gt;
+
+&lt;p&gt;But, usually, due to various reasons, it’s very hard to estimate exactly how many gas units are needed to execute a particular txn.&lt;/p&gt;
+
+&lt;p&gt;Even two absolutely the same txns can have different gas usage because of different EVM states while executing.
+Here’s an example:&lt;br /&gt;
+&lt;a href=&quot;https://ethereum.stackexchange.com/questions/44643/why-gas-used-are-different-for-same-transfer-tx&quot;&gt;https://ethereum.stackexchange.com/questions/44643/why-gas-used-are-different-for-same-transfer-tx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Txns are basically a list of instructions for EVM. And any instruction has a universally agreed cost in terms of gas.&lt;/p&gt;
+
+&lt;p&gt;More details about these ‘costs’ and other implementations of the EVM can be found in an Ethereum Yellowpaper: &lt;br /&gt;
+&lt;a href=&quot;https://ethereum.github.io/yellowpaper/paper.pdf&quot;&gt;https://ethereum.github.io/yellowpaper/paper.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/what-is-a-gas-fee/yellowpaper.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you want to go deeper on this topic you can start with Ethereum documentation:&lt;br /&gt;
+&lt;a href=&quot;https://ethereum.org/en/developers/docs/gas/&quot;&gt;https://ethereum.org/en/developers/docs/gas/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Gas fees is definitely a great concept that showed credibility over many years, but the next big step in Ethereum adoption will be a new UI/UX layer where a regular user doesn’t even know about its existence.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 11 Jan 2022 21:16:00 +0300</pubDate>
+        <link>http://localhost:4000/general/2022/01/11/what-is-a-gas-fee.html</link>
+        <guid isPermaLink="true">http://localhost:4000/general/2022/01/11/what-is-a-gas-fee.html</guid>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+      <item>
         <title>Crowdworking and web3</title>
-        <description>&lt;p&gt;Crowdwork organizations are a very necessary part of our future.&lt;br /&gt;
-Today companies like Mturk, Scale, Toloka, Hive and many others solving a crucial part of AI - data labeling. But crowd work is so much more than that and should drive other industries.&lt;/p&gt;
+        <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;twitter.com/dashtiev&quot;&gt;on my twitter&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Crowdwork organizations are a very necessary part of our future.&lt;/p&gt;
+
+&lt;p&gt;Today companies like Mturk, Scale, Toloka, Hive and many others solving a crucial part of AI - data labeling. But crowd work is so much more than that and should drive other industries.&lt;/p&gt;
 
 &lt;p&gt;The core idea behind crowdwork tools is to divide a complex task into simple ones, give those simple tasks to many people, collect the results and use algorithms to combine them in one good result.&lt;/p&gt;
 

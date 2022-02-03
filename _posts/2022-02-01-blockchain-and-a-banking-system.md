@@ -5,6 +5,8 @@ date:   2022-02-01 14:28:14 +0000
 categories: general
 ---
 
+*Originally posted [on my twitter](twitter.com/dashtiev)*
+
 ***This post is in progress***
 
 Let's look at banking systems in the majority of modern countries. Basically, it has 3 layers of data exchange:

@@ -1,0 +1,84 @@
+- type: web3
+  # tags:
+  description: All-in-one guide for Web3 development from zero to hero.
+  link: https://vitto.cc/web3-and-solidity-smart-contracts-development-roadmap/
+
+- type: web3
+  # tags:
+  description: Nader Dabit identifies the building blocks of the web3 technology stack in an introductory guide.
+  link: https://edgeandnode.com/blog/defining-the-web3-stack
+
+- type: javascript
+  # tags:
+  description: Udemy - Foundations of Front-End Web Development (free).
+  link: https://www.udemy.com/course/foundations-of-front-end-development/
+
+- type: javascript
+  # tags:
+  description: 7 Free HTML, CSS, JavaScript Courses (twitter thread).
+  link: https://twitter.com/codewithredi/status/1488158547183603714
+
+- type: javascript
+  # tags:
+  description: Codecademy - Javascript (free).
+  link: https://www.codecademy.com/learn/introduction-to-javascript
+
+- type: javascript
+  # tags:
+  description: Udemy - Javascript Essentials (free).
+  link: https://www.udemy.com/course/javascript-essentials/
+
+- type: web3
+  # tags:
+  description: Tutorial - Building a web3 frontend with React.
+  link: https://medium.com/scrappy-squirrels/tutorial-building-a-web3-frontend-with-react-e0a87ea3bad
+
+- type: general
+  # tags:
+  description: A useful tool where you can convert code from one programming language to another.
+  link: https://ide.onelang.io/
+
+- type: general
+  # tags:
+  description: Generate QR-codes on the fly with a URL GET request.
+  link: https://developers.google.com/chart/infographics/docs/qr_codes
+
+- type: general
+  # tags:
+  description: Open a window somewhere in the world.
+  link: https://www.window-swap.com/
+
+- type: general
+  # tags:
+  description: Free Web Development Resources (twitter thread).
+  link: https://twitter.com/denicmarko/status/1277492413032992768
+
+- type: web3
+  # tags:
+  description: Become a Web3 developer for Free (twitter thread).
+  link: https://twitter.com/web3university/status/1487022650597724165
+
+- type: web3
+  # tags:
+  description: A simple realization of blockchain using Python and Flask.
+  link: https://gist.github.com/Eversmile12/f3a2837edb55a4b7de007db3e449c41f
+
+- type: web3
+  # tags:
+  description: 16hrs - Full-stack Blockchain development  course by @web3university contributor @PatrickAlphaC (free).
+  link: https://www.youtube.com/watch?v=M576WGiDBdQ&feature=emb_logo
+
+- type: web3
+  # tags:
+  description: Coinbase - A simple guide to the Web3 stack.
+  link: https://blog.coinbase.com/a-simple-guide-to-the-web3-stack-785240e557f0
+
+- type: web3
+  # tags:
+  description: How to read a smart contract—and why you’d want to in the first place (twitter thread).
+  link: https://twitter.com/chriscantino/status/1480300076786274304
+
+- type: web3
+  # tags:
+  description: The optimal token distribution (twitter thread).
+  link: https://twitter.com/Cooopahtroopa/status/1478465134599180288

@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Crowdworking and web3</title>
-  <meta name="description" content="Crowdwork organizations are a very necessary part of our future.Today companies like Mturk, Scale, Toloka, Hive and many others solving a crucial part of AI ...">
+  <meta name="description" content="Originally posted on my twitter">
 
   <!-- <link rel="stylesheet" href="/assets/css/main.css"> -->
   <!-- <link rel="canonical" href="http://localhost:4000/general/2022/01/04/crowdworking-and-web3.html"> -->
@@ -28,6 +28,7 @@
         /* border: 3px solid green; */
         /* padding: 10px; */
         margin-bottom: 40px;
+        /* height: 100%; */
       }
     div.post {
         padding-top: 80px;
@@ -55,8 +56,30 @@
       padding: .2rem .4rem;
       border-radius: 4px;
     }
-    iframe {
+    div.iframe-container {
+      position: relative;
+      overflow: hidden;
       width: 100%;
+      padding-top: 100%
+    }
+    /* Then style the iframe to fit in the container div with full height and width */
+    .responsive-iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+    }
+    img {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      max-width: 100%;
+      max-height: 600px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
     </style>
 
@@ -77,8 +100,11 @@
       <br/>
       <br/>
     
-      <p>Crowdwork organizations are a very necessary part of our future.<br />
-Today companies like Mturk, Scale, Toloka, Hive and many others solving a crucial part of AI - data labeling. But crowd work is so much more than that and should drive other industries.</p>
+      <p><em>Originally posted <a href="twitter.com/dashtiev">on my twitter</a></em></p>
+
+<p>Crowdwork organizations are a very necessary part of our future.</p>
+
+<p>Today companies like Mturk, Scale, Toloka, Hive and many others solving a crucial part of AI - data labeling. But crowd work is so much more than that and should drive other industries.</p>
 
 <p>The core idea behind crowdwork tools is to divide a complex task into simple ones, give those simple tasks to many people, collect the results and use algorithms to combine them in one good result.</p>
 

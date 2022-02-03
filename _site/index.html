@@ -27,6 +27,7 @@
         /* border: 3px solid green; */
         /* padding: 10px; */
         margin-bottom: 40px;
+        /* height: 100%; */
       }
     div.post {
         padding-top: 80px;
@@ -54,8 +55,30 @@
       padding: .2rem .4rem;
       border-radius: 4px;
     }
-    iframe {
+    div.iframe-container {
+      position: relative;
+      overflow: hidden;
       width: 100%;
+      padding-top: 100%
+    }
+    /* Then style the iframe to fit in the container div with full height and width */
+    .responsive-iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+    }
+    img {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      max-width: 100%;
+      max-height: 600px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
     </style>
 
@@ -76,24 +99,17 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <!-- <li class="nav-item">
-            <a class="nav-item nav-link" id="home" href="/">Home</a>
-          </li> -->
-          <!-- <li class="nav-item">
-            <a class="nav-item nav-link" id="blog" href="/blog">Blog</a>
-          </li> -->
+
           <li class="nav-item">
-            <a class="nav-item nav-link" id="about" href="/projects">Projects</a>
+            <a class="nav-item nav-link" href="/projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link" id="about" href="/library">Library</a>
+            <a class="nav-item nav-link" href="/library/general">Library</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link" id="about" href="/about">About</a>
+            <a class="nav-item nav-link" href="/about">About</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-item nav-link" id="wall" href="/wall">Wall</a>
-          </li> -->
+
         </ul>
       </div>
     </div>
@@ -112,6 +128,12 @@
       <span class="text-muted">Feb 1, 2022</span>
       <h5>
         <a href="/general/2022/02/01/blockchain-and-a-banking-system.html">Blockchain and a banking system</a>
+      </h5>
+    <br/>
+  
+      <span class="text-muted">Jan 11, 2022</span>
+      <h5>
+        <a href="/general/2022/01/11/what-is-a-gas-fee.html">What is a gas fee</a>
       </h5>
     <br/>
   

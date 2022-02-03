@@ -5,7 +5,7 @@ date:   2022-01-04 17:06:00 +0000
 categories: general
 ---
 
-*Originally posted [on my twitter](twitter.com/dashtiev)*
+*Originally posted [on my twitter](https://twitter.com/dashtiev)*
 
 Crowdwork organizations are a very necessary part of our future.
 

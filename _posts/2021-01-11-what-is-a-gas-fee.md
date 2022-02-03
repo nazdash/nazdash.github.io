@@ -5,7 +5,7 @@ date:   2022-01-11 18:16:00 +0000
 categories: general
 ---
 
-*Originally posted [on my twitter](twitter.com/dashtiev)*
+*Originally posted [on my twitter](https://twitter.com/dashtiev)*
 
 Basically, Ethereum is a decentralized computer that runs different types of transactions (txns) which could change the blockchain state.
 

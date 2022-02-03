@@ -5,13 +5,13 @@
     <description>This is a website i'm using to write my thoughts outside of twitter. Sometimes I put here my random side projects.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Feb 2022 23:55:06 +0300</pubDate>
-    <lastBuildDate>Thu, 03 Feb 2022 23:55:06 +0300</lastBuildDate>
+    <pubDate>Fri, 04 Feb 2022 00:04:03 +0300</pubDate>
+    <lastBuildDate>Fri, 04 Feb 2022 00:04:03 +0300</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
         <title>Blockchain and a banking system</title>
-        <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;twitter.com/dashtiev&quot;&gt;on my twitter&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot;&gt;on my twitter&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;This post is in progress&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
@@ -42,7 +42,7 @@
     
       <item>
         <title>What is a gas fee</title>
-        <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;twitter.com/dashtiev&quot;&gt;on my twitter&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot;&gt;on my twitter&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Basically, Ethereum is a decentralized computer that runs different types of transactions (txns) which could change the blockchain state.&lt;/p&gt;
 
@@ -161,7 +161,7 @@ Here’s an example:&lt;br /&gt;
     
       <item>
         <title>Crowdworking and web3</title>
-        <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;twitter.com/dashtiev&quot;&gt;on my twitter&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot;&gt;on my twitter&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Crowdwork organizations are a very necessary part of our future.&lt;/p&gt;
 

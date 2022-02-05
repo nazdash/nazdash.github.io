@@ -5,7 +5,7 @@ date:   2022-02-01 14:28:14 +0000
 categories: general
 ---
 
-*Originally posted [on my twitter](https://twitter.com/dashtiev)*
+*Originally posted [on my twitter](https://twitter.com/dashtiev){:target="_blank"}.*
 
 ***This post is in progress***
 

@@ -2,9 +2,9 @@
 
   <!-- <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
   
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f8f8f8;">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff; font-family: 'Poppins';">
     <div class="container-fluid">
-      <a style="font-size: 18px; font-family:'Poppins';" class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      <a style="color: #000000; font-size: 18px; font-family:'Poppins';" class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -12,16 +12,16 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
           <li class="nav-item">
-            <a class="nav-item nav-link" href="/">Blog</a>
+            <a class="nav-item nav-link {% if page.url == '/' %}active{% endif %}" href="/">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link" href="/projects">Projects</a>
+            <a class="nav-item nav-link {% if page.url contains 'projects' %}active{% endif %}" href="/projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link" href="/library/general">Library</a>
+            <a class="nav-item nav-link {% if page.url contains 'library' %}active{% endif %}" href="/library/general">Library</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item nav-link" href="/about">About</a>
+            <a class="nav-item nav-link {% if page.url contains 'about' %}active{% endif %}" href="/about">About</a>
           </li>
 
         </ul>

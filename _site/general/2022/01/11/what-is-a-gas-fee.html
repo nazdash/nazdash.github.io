@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>What is a gas fee</title>
-  <meta name="description" content="Originally posted on my twitter">
+  <meta name="description" content="Originally posted on my twitter.">
 
   <!-- <link rel="stylesheet" href="/assets/css/main.css"> -->
   <!-- <link rel="canonical" href="http://localhost:4000/general/2022/01/11/what-is-a-gas-fee.html"> -->
@@ -81,6 +81,9 @@
       margin-left: auto;
       margin-right: auto;
     }
+    .navbar-light .navbar-nav .nav-link.active {
+      color: #000000;  
+    }
     </style>
 
 </head>
@@ -100,7 +103,11 @@
       <br/>
       <br/>
     
-      <p><em>Originally posted <a href="https://twitter.com/dashtiev">on my twitter</a></em></p>
+      <p><em>Originally posted <a href="https://twitter.com/dashtiev" target="_blank">on my twitter</a>.</em></p>
+
+<h5 id="ethereum-basics">Ethereum basics</h5>
+
+<p>The concept of gas fees, how they are calculated and how affect your transactions is fundamental to understanding how the Ethereum blockchain works.</p>
 
 <p>Basically, Ethereum is a decentralized computer that runs different types of transactions (txns) which could change the blockchain state.</p>
 
@@ -114,9 +121,11 @@
 
 <p>EVM is what defines the rules for computing a new valid state from block to block.</p>
 
-<p>There’re two types of accounts in Ethereum:<br />
-a) Account managed by a human<br />
-b) Account managed by a program (i.e. smart contract)</p>
+<p>There’re two types of accounts in Ethereum:</p>
+<ul>
+  <li>Account managed by a human</li>
+  <li>Account managed by a program (i.e. smart contract)</li>
+</ul>
 
 <p>Both types of accounts can:</p>
 <ul>
@@ -127,6 +136,8 @@ b) Account managed by a program (i.e. smart contract)</p>
 <p>A smart contract is a program that “lives inside” a blockchain and can be triggered by txn from another account and execute many different actions, such as transferring tokens or even creating a new contract.</p>
 
 <p>Since each Ethereum txn requires computational resources to execute, each txn requires a fee and must be mined to become valid.</p>
+
+<h5 id="gas-basics">Gas basics</h5>
 
 <p>“Gas” refers to the fee required to conduct a transaction on Ethereum successfully.</p>
 
@@ -163,11 +174,11 @@ This fee gets burned when it’s paid.</p>
 
 <p><code>[Priority fee]</code> is optional and not burning. It goes to a miner as an incentive to process your txn sooner.</p>
 
-<p>For example, If you put 0 gwei for [Priority fee] more likely there will be no reason for the miner to include your txn into the block.<br />
+<p>For example, If you put 0 gwei for <code>[Priority fee]</code> more likely there will be no reason for the miner to include your txn into the block.<br />
 Without this fee, miners would find it economically viable to mine empty blocks, as they would receive the same block reward.</p>
 
 <p>You can find actual block base fee and priority fees for different types of txn execution speed (e.g. low, average, high) on various websites.
-For example here: <a href="https://etherscan.io/gastracker">https://etherscan.io/gastracker</a></p>
+For example here: <a href="https://etherscan.io/gastracker" target="_blank">https://etherscan.io/gastracker</a></p>
 
 <p><img src="http://localhost:4000/assets/images/what-is-a-gas-fee/etherscan.jpg" /></p>
 
@@ -177,15 +188,17 @@ For example here: <a href="https://etherscan.io/gastracker">https://etherscan.io
 
 <p>The higher <code>[Max fee]</code> is, the more chances txn will be successful in case of a surge in blockchain use (i.e. [Base fee] increase) after txn is submitted.</p>
 
+<h5 id="what-is-a-gas-limit-and-why-it-exists">What is a gas limit and why it exists</h5>
+
 <p>So, now we know how fees per gas unit are produced.</p>
 
 <p>Let’s move to the <code>[Gas limit]</code> and how it differs from actual gas usage.</p>
 
 <p><img src="http://localhost:4000/assets/images/what-is-a-gas-fee/gas-usage.jpg" /></p>
 
-<p><code>[Gas limit]</code> refers to the maximum amount of gas you are willing to consume on a txn.</p>
+<p><code>[Gas limit]</code> refers to the maximum amount of <code>[Gas units]</code> you are willing to consume on a txn.</p>
 
-<p>If your gas limit will be lower than the actual amount of gas units needed to execute a txn, txn will be unsuccessful. The EVM then reverts any changes, but the gas will be consumed.</p>
+<p>If your gas limit will be lower than the actual amount of gas units needed to execute a txn, txn will be unsuccessful. The EVM then reverts any changes, <strong>but the gas will be consumed</strong>.</p>
 
 <p>If we can exactly estimate a <code>[Gas limit]</code> for a txn it will be equal to actual gas usage.</p>
 
@@ -193,17 +206,19 @@ For example here: <a href="https://etherscan.io/gastracker">https://etherscan.io
 
 <p>Even two absolutely the same txns can have different gas usage because of different EVM states while executing.
 Here’s an example:<br />
-<a href="https://ethereum.stackexchange.com/questions/44643/why-gas-used-are-different-for-same-transfer-tx">https://ethereum.stackexchange.com/questions/44643/why-gas-used-are-different-for-same-transfer-tx</a></p>
+<a href="https://ethereum.stackexchange.com/questions/44643/why-gas-used-are-different-for-same-transfer-tx" target="_blank">https://ethereum.stackexchange.com/questions/44643/why-gas-used-are-different-for-same-transfer-tx</a></p>
+
+<h5 id="final-words">Final words</h5>
 
 <p>Txns are basically a list of instructions for EVM. And any instruction has a universally agreed cost in terms of gas.</p>
 
 <p>More details about these ‘costs’ and other implementations of the EVM can be found in an Ethereum Yellowpaper: <br />
-<a href="https://ethereum.github.io/yellowpaper/paper.pdf">https://ethereum.github.io/yellowpaper/paper.pdf</a></p>
+<a href="https://ethereum.github.io/yellowpaper/paper.pdf" target="_blank">https://ethereum.github.io/yellowpaper/paper.pdf</a></p>
 
 <p><img src="http://localhost:4000/assets/images/what-is-a-gas-fee/yellowpaper.png" /></p>
 
 <p>If you want to go deeper on this topic you can start with Ethereum documentation:<br />
-<a href="https://ethereum.org/en/developers/docs/gas/">https://ethereum.org/en/developers/docs/gas/</a></p>
+<a href="https://ethereum.org/en/developers/docs/gas/" target="_blank">https://ethereum.org/en/developers/docs/gas/</a></p>
 
 <p>Gas fees is definitely a great concept that showed credibility over many years, but the next big step in Ethereum adoption will be a new UI/UX layer where a regular user doesn’t even know about its existence.</p>
 

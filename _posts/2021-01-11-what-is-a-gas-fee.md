@@ -5,7 +5,11 @@ date:   2022-01-11 18:16:00 +0000
 categories: general
 ---
 
-*Originally posted [on my twitter](https://twitter.com/dashtiev)*
+*Originally posted [on my twitter](https://twitter.com/dashtiev){:target="_blank"}.*
+
+##### Ethereum basics
+
+The concept of gas fees, how they are calculated and how affect your transactions is fundamental to understanding how the Ethereum blockchain works.
 
 Basically, Ethereum is a decentralized computer that runs different types of transactions (txns) which could change the blockchain state.
 
@@ -17,9 +21,9 @@ All txns are initiated by accounts of the Ethereum network and basically are cry
 
 EVM is what defines the rules for computing a new valid state from block to block.
 
-There're two types of accounts in Ethereum:\
-a) Account managed by a human\
-b) Account managed by a program (i.e. smart contract)
+There're two types of accounts in Ethereum:
+- Account managed by a human
+- Account managed by a program (i.e. smart contract)
 
 Both types of accounts can:
 - Receive, hold and send ETH and tokens
@@ -28,6 +32,8 @@ Both types of accounts can:
 A smart contract is a program that "lives inside" a blockchain and can be triggered by txn from another account and execute many different actions, such as transferring tokens or even creating a new contract.
 
 Since each Ethereum txn requires computational resources to execute, each txn requires a fee and must be mined to become valid. 
+
+##### Gas basics
 
 "Gas" refers to the fee required to conduct a transaction on Ethereum successfully.
 
@@ -64,11 +70,11 @@ This fee gets burned when it's paid.
 
 <code>[Priority fee]</code> is optional and not burning. It goes to a miner as an incentive to process your txn sooner.
 
-For example, If you put 0 gwei for [Priority fee] more likely there will be no reason for the miner to include your txn into the block.\
+For example, If you put 0 gwei for <code>[Priority fee]</code> more likely there will be no reason for the miner to include your txn into the block.\
 Without this fee, miners would find it economically viable to mine empty blocks, as they would receive the same block reward.
 
 You can find actual block base fee and priority fees for different types of txn execution speed (e.g. low, average, high) on various websites.
-For example here: [https://etherscan.io/gastracker](https://etherscan.io/gastracker)
+For example here: [https://etherscan.io/gastracker](https://etherscan.io/gastracker){:target="_blank"}
 
 <img src="{{site.url}}/assets/images/what-is-a-gas-fee/etherscan.jpg">
 
@@ -78,15 +84,17 @@ Metamask initially sets this amount based on the previous block’s history.
 
 The higher <code>[Max fee]</code> is, the more chances txn will be successful in case of a surge in blockchain use (i.e. [Base fee] increase) after txn is submitted.
 
+##### What is a gas limit and why it exists
+
 So, now we know how fees per gas unit are produced. 
 
 Let's move to the <code>[Gas limit]</code> and how it differs from actual gas usage.
 
 <img src="{{site.url}}/assets/images/what-is-a-gas-fee/gas-usage.jpg">
 
-<code>[Gas limit]</code> refers to the maximum amount of gas you are willing to consume on a txn.
+<code>[Gas limit]</code> refers to the maximum amount of <code>[Gas units]</code> you are willing to consume on a txn.
 
-If your gas limit will be lower than the actual amount of gas units needed to execute a txn, txn will be unsuccessful. The EVM then reverts any changes, but the gas will be consumed.
+If your gas limit will be lower than the actual amount of gas units needed to execute a txn, txn will be unsuccessful. The EVM then reverts any changes, **but the gas will be consumed**.
 
 If we can exactly estimate a <code>[Gas limit]</code> for a txn it will be equal to actual gas usage.
 
@@ -94,17 +102,19 @@ But, usually, due to various reasons, it's very hard to estimate exactly how man
 
 Even two absolutely the same txns can have different gas usage because of different EVM states while executing.
 Here's an example:\
-[https://ethereum.stackexchange.com/questions/44643/why-gas-used-are-different-for-same-transfer-tx](https://ethereum.stackexchange.com/questions/44643/why-gas-used-are-different-for-same-transfer-tx)
+[https://ethereum.stackexchange.com/questions/44643/why-gas-used-are-different-for-same-transfer-tx](https://ethereum.stackexchange.com/questions/44643/why-gas-used-are-different-for-same-transfer-tx){:target="_blank"}
+
+##### Final words
 
 Txns are basically a list of instructions for EVM. And any instruction has a universally agreed cost in terms of gas.
 
 More details about these 'costs' and other implementations of the EVM can be found in an Ethereum Yellowpaper: \
-[https://ethereum.github.io/yellowpaper/paper.pdf](https://ethereum.github.io/yellowpaper/paper.pdf)
+[https://ethereum.github.io/yellowpaper/paper.pdf](https://ethereum.github.io/yellowpaper/paper.pdf){:target="_blank"}
 
 <img src="{{site.url}}/assets/images/what-is-a-gas-fee/yellowpaper.png">
 
 If you want to go deeper on this topic you can start with Ethereum documentation:\
-[https://ethereum.org/en/developers/docs/gas/](https://ethereum.org/en/developers/docs/gas/)
+[https://ethereum.org/en/developers/docs/gas/](https://ethereum.org/en/developers/docs/gas/){:target="_blank"}
 
 Gas fees is definitely a great concept that showed credibility over many years, but the next big step in Ethereum adoption will be a new UI/UX layer where a regular user doesn't even know about its existence.
 

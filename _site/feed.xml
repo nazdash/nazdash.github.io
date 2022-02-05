@@ -5,13 +5,13 @@
     <description>This is a website i'm using to write my thoughts outside of twitter. Sometimes I put here my random side projects.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 04 Feb 2022 00:04:03 +0300</pubDate>
-    <lastBuildDate>Fri, 04 Feb 2022 00:04:03 +0300</lastBuildDate>
+    <pubDate>Sat, 05 Feb 2022 13:38:36 +0300</pubDate>
+    <lastBuildDate>Sat, 05 Feb 2022 13:38:36 +0300</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
         <title>Blockchain and a banking system</title>
-        <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot;&gt;on my twitter&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot; target=&quot;_blank&quot;&gt;on my twitter&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;This post is in progress&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
@@ -42,7 +42,11 @@
     
       <item>
         <title>What is a gas fee</title>
-        <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot;&gt;on my twitter&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot; target=&quot;_blank&quot;&gt;on my twitter&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;ethereum-basics&quot;&gt;Ethereum basics&lt;/h5&gt;
+
+&lt;p&gt;The concept of gas fees, how they are calculated and how affect your transactions is fundamental to understanding how the Ethereum blockchain works.&lt;/p&gt;
 
 &lt;p&gt;Basically, Ethereum is a decentralized computer that runs different types of transactions (txns) which could change the blockchain state.&lt;/p&gt;
 
@@ -56,9 +60,11 @@
 
 &lt;p&gt;EVM is what defines the rules for computing a new valid state from block to block.&lt;/p&gt;
 
-&lt;p&gt;There’re two types of accounts in Ethereum:&lt;br /&gt;
-a) Account managed by a human&lt;br /&gt;
-b) Account managed by a program (i.e. smart contract)&lt;/p&gt;
+&lt;p&gt;There’re two types of accounts in Ethereum:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Account managed by a human&lt;/li&gt;
+  &lt;li&gt;Account managed by a program (i.e. smart contract)&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Both types of accounts can:&lt;/p&gt;
 &lt;ul&gt;
@@ -69,6 +75,8 @@ b) Account managed by a program (i.e. smart contract)&lt;/p&gt;
 &lt;p&gt;A smart contract is a program that “lives inside” a blockchain and can be triggered by txn from another account and execute many different actions, such as transferring tokens or even creating a new contract.&lt;/p&gt;
 
 &lt;p&gt;Since each Ethereum txn requires computational resources to execute, each txn requires a fee and must be mined to become valid.&lt;/p&gt;
+
+&lt;h5 id=&quot;gas-basics&quot;&gt;Gas basics&lt;/h5&gt;
 
 &lt;p&gt;“Gas” refers to the fee required to conduct a transaction on Ethereum successfully.&lt;/p&gt;
 
@@ -105,11 +113,11 @@ This fee gets burned when it’s paid.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;[Priority fee]&lt;/code&gt; is optional and not burning. It goes to a miner as an incentive to process your txn sooner.&lt;/p&gt;
 
-&lt;p&gt;For example, If you put 0 gwei for [Priority fee] more likely there will be no reason for the miner to include your txn into the block.&lt;br /&gt;
+&lt;p&gt;For example, If you put 0 gwei for &lt;code&gt;[Priority fee]&lt;/code&gt; more likely there will be no reason for the miner to include your txn into the block.&lt;br /&gt;
 Without this fee, miners would find it economically viable to mine empty blocks, as they would receive the same block reward.&lt;/p&gt;
 
 &lt;p&gt;You can find actual block base fee and priority fees for different types of txn execution speed (e.g. low, average, high) on various websites.
-For example here: &lt;a href=&quot;https://etherscan.io/gastracker&quot;&gt;https://etherscan.io/gastracker&lt;/a&gt;&lt;/p&gt;
+For example here: &lt;a href=&quot;https://etherscan.io/gastracker&quot; target=&quot;_blank&quot;&gt;https://etherscan.io/gastracker&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/what-is-a-gas-fee/etherscan.jpg&quot; /&gt;&lt;/p&gt;
 
@@ -119,15 +127,17 @@ For example here: &lt;a href=&quot;https://etherscan.io/gastracker&quot;&gt;http
 
 &lt;p&gt;The higher &lt;code&gt;[Max fee]&lt;/code&gt; is, the more chances txn will be successful in case of a surge in blockchain use (i.e. [Base fee] increase) after txn is submitted.&lt;/p&gt;
 
+&lt;h5 id=&quot;what-is-a-gas-limit-and-why-it-exists&quot;&gt;What is a gas limit and why it exists&lt;/h5&gt;
+
 &lt;p&gt;So, now we know how fees per gas unit are produced.&lt;/p&gt;
 
 &lt;p&gt;Let’s move to the &lt;code&gt;[Gas limit]&lt;/code&gt; and how it differs from actual gas usage.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/what-is-a-gas-fee/gas-usage.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;[Gas limit]&lt;/code&gt; refers to the maximum amount of gas you are willing to consume on a txn.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;[Gas limit]&lt;/code&gt; refers to the maximum amount of &lt;code&gt;[Gas units]&lt;/code&gt; you are willing to consume on a txn.&lt;/p&gt;
 
-&lt;p&gt;If your gas limit will be lower than the actual amount of gas units needed to execute a txn, txn will be unsuccessful. The EVM then reverts any changes, but the gas will be consumed.&lt;/p&gt;
+&lt;p&gt;If your gas limit will be lower than the actual amount of gas units needed to execute a txn, txn will be unsuccessful. The EVM then reverts any changes, &lt;strong&gt;but the gas will be consumed&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;If we can exactly estimate a &lt;code&gt;[Gas limit]&lt;/code&gt; for a txn it will be equal to actual gas usage.&lt;/p&gt;
 
@@ -135,17 +145,19 @@ For example here: &lt;a href=&quot;https://etherscan.io/gastracker&quot;&gt;http
 
 &lt;p&gt;Even two absolutely the same txns can have different gas usage because of different EVM states while executing.
 Here’s an example:&lt;br /&gt;
-&lt;a href=&quot;https://ethereum.stackexchange.com/questions/44643/why-gas-used-are-different-for-same-transfer-tx&quot;&gt;https://ethereum.stackexchange.com/questions/44643/why-gas-used-are-different-for-same-transfer-tx&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://ethereum.stackexchange.com/questions/44643/why-gas-used-are-different-for-same-transfer-tx&quot; target=&quot;_blank&quot;&gt;https://ethereum.stackexchange.com/questions/44643/why-gas-used-are-different-for-same-transfer-tx&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;final-words&quot;&gt;Final words&lt;/h5&gt;
 
 &lt;p&gt;Txns are basically a list of instructions for EVM. And any instruction has a universally agreed cost in terms of gas.&lt;/p&gt;
 
 &lt;p&gt;More details about these ‘costs’ and other implementations of the EVM can be found in an Ethereum Yellowpaper: &lt;br /&gt;
-&lt;a href=&quot;https://ethereum.github.io/yellowpaper/paper.pdf&quot;&gt;https://ethereum.github.io/yellowpaper/paper.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://ethereum.github.io/yellowpaper/paper.pdf&quot; target=&quot;_blank&quot;&gt;https://ethereum.github.io/yellowpaper/paper.pdf&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/what-is-a-gas-fee/yellowpaper.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If you want to go deeper on this topic you can start with Ethereum documentation:&lt;br /&gt;
-&lt;a href=&quot;https://ethereum.org/en/developers/docs/gas/&quot;&gt;https://ethereum.org/en/developers/docs/gas/&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://ethereum.org/en/developers/docs/gas/&quot; target=&quot;_blank&quot;&gt;https://ethereum.org/en/developers/docs/gas/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Gas fees is definitely a great concept that showed credibility over many years, but the next big step in Ethereum adoption will be a new UI/UX layer where a regular user doesn’t even know about its existence.&lt;/p&gt;
 
@@ -161,7 +173,7 @@ Here’s an example:&lt;br /&gt;
     
       <item>
         <title>Crowdworking and web3</title>
-        <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot;&gt;on my twitter&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot; target=&quot;_blank&quot;&gt;on my twitter&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Crowdwork organizations are a very necessary part of our future.&lt;/p&gt;
 

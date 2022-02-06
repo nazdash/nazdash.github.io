@@ -5,8 +5,6 @@ date:   2022-01-11 18:16:00 +0000
 categories: general
 ---
 
-*Originally posted [on my twitter](https://twitter.com/dashtiev){:target="_blank"}.*
-
 ##### Ethereum basics
 
 The concept of gas fees, how they are calculated and how affect your transactions is fundamental to understanding how the Ethereum blockchain works.
@@ -118,3 +116,4 @@ If you want to go deeper on this topic you can start with Ethereum documentation
 
 Gas fees is definitely a great concept that showed credibility over many years, but the next big step in Ethereum adoption will be a new UI/UX layer where a regular user doesn't even know about its existence.
 
+*Originally posted [on my twitter](https://twitter.com/dashtiev){:target="_blank"}.*

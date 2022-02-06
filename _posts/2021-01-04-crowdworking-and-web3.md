@@ -5,8 +5,6 @@ date:   2022-01-04 17:06:00 +0000
 categories: general
 ---
 
-*Originally posted [on my twitter](https://twitter.com/dashtiev){:target="_blank"}.*
-
 Crowdwork organizations are a very necessary part of our future.
 
 Today companies like Mturk, Scale, Toloka, Hive and many others solving a crucial part of AI - data labeling. But crowd work is so much more than that and should drive other industries.
@@ -48,3 +46,5 @@ Developers who will work on the product side of this tool will be also incentivi
 I think right now we're in the moment when both crowdworking and web3 movements should be combined to try to build something really meaningful for a lot of people around the globe.
 
 If you're working on something like that or want to explore this idea further, let's connect.
+
+*Originally posted [on my twitter](https://twitter.com/dashtiev){:target="_blank"}.*

@@ -82,3 +82,9 @@
   # tags:
   description: The optimal token distribution (twitter thread).
   link: https://twitter.com/Cooopahtroopa/status/1478465134599180288
+
+- type: web3
+  # tags:
+  description: Ethereum - Learn by coding.
+  link: https://ethereum.org/en/developers/learning-tools/
+  

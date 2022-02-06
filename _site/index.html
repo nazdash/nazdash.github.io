@@ -83,6 +83,43 @@
     .navbar-light .navbar-nav .nav-link.active {
       color: #000000;  
     }
+    div.shout {
+      font-size: 40px;
+      font-size: 4vw;
+      font-family: 'Poppins';
+      font-weight: 800;
+      left: 0;
+      margin: auto;
+      /* padding-top: 20%; */
+      position: absolute;
+      text-align: center;
+      top: 40%;
+      width: 100%;
+      /* height: 100%; */
+      color: #ffffff;
+    }
+    div.rectangle {
+      width: 100%;
+      height: 100%;
+      background: #f72585;
+    }
+    div.container a {
+    text-decoration: none;
+    }
+    div.container a:hover {
+    text-decoration: underline;
+    }
+    .nav .nav-link.active {
+      background: #000000;
+    }
+    .nav .nav-link {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-weight: 600;
+    }
+    .nav .nav-item .nav-link {
+      text-decoration: none;
+    }
     </style>
 
 </head>
@@ -100,11 +137,11 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="float: right">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
           <li class="nav-item">
-            <a class="nav-item nav-link active" href="/">Blog</a>
+            <a class="nav-item nav-link " href="/blog">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-item nav-link " href="/projects">Projects</a>
@@ -126,33 +163,15 @@
 
 
     <div class="container">
-        <h3>some of my posts.</h3>
-<br/>
-
-<!-- <ul> -->
-  
-      <span class="text-muted">Feb 1, 2022</span>
-      <h5>
-        <a href="/general/2022/02/01/blockchain-and-a-banking-system.html">Blockchain and a banking system</a>
-      </h5>
-    <br/>
-  
-      <span class="text-muted">Jan 11, 2022</span>
-      <h5>
-        <a href="/general/2022/01/11/what-is-a-gas-fee.html">What is a gas fee</a>
-      </h5>
-    <br/>
-  
-      <span class="text-muted">Jan 4, 2022</span>
-      <h5>
-        <a href="/general/2022/01/04/crowdworking-and-web3.html">Crowdworking and web3</a>
-      </h5>
-    <br/>
-  
-<!-- </ul> -->
+        <div class="container">
+  <div class="shout">
+    <div class="rectangle">
+    Be curious, not judgmental.
+    </div>
+  </div>
+</div>
 
 <!-- <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p> -->
-
     </div>
 
     <footer> 

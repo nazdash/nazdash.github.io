@@ -5,15 +5,13 @@
     <description>This is a website i'm using to write my thoughts outside of twitter. Sometimes I put here my random side projects.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 05 Feb 2022 13:38:36 +0300</pubDate>
-    <lastBuildDate>Sat, 05 Feb 2022 13:38:36 +0300</lastBuildDate>
+    <pubDate>Sun, 06 Feb 2022 18:39:31 +0300</pubDate>
+    <lastBuildDate>Sun, 06 Feb 2022 18:39:31 +0300</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
         <title>Blockchain and a banking system</title>
-        <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot; target=&quot;_blank&quot;&gt;on my twitter&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;This post is in progress&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;This post is in progress&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Let’s look at banking systems in the majority of modern countries. Basically, it has 3 layers of data exchange:&lt;/p&gt;
 &lt;ul&gt;
@@ -30,6 +28,8 @@
 &lt;/ul&gt;
 
 &lt;p&gt;History rhymes. Or not?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot; target=&quot;_blank&quot;&gt;on my twitter&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Feb 2022 17:28:14 +0300</pubDate>
         <link>http://localhost:4000/general/2022/02/01/blockchain-and-a-banking-system.html</link>
@@ -42,9 +42,7 @@
     
       <item>
         <title>What is a gas fee</title>
-        <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot; target=&quot;_blank&quot;&gt;on my twitter&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;ethereum-basics&quot;&gt;Ethereum basics&lt;/h5&gt;
+        <description>&lt;h5 id=&quot;ethereum-basics&quot;&gt;Ethereum basics&lt;/h5&gt;
 
 &lt;p&gt;The concept of gas fees, how they are calculated and how affect your transactions is fundamental to understanding how the Ethereum blockchain works.&lt;/p&gt;
 
@@ -161,6 +159,7 @@ Here’s an example:&lt;br /&gt;
 
 &lt;p&gt;Gas fees is definitely a great concept that showed credibility over many years, but the next big step in Ethereum adoption will be a new UI/UX layer where a regular user doesn’t even know about its existence.&lt;/p&gt;
 
+&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot; target=&quot;_blank&quot;&gt;on my twitter&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 11 Jan 2022 21:16:00 +0300</pubDate>
         <link>http://localhost:4000/general/2022/01/11/what-is-a-gas-fee.html</link>
@@ -173,9 +172,7 @@ Here’s an example:&lt;br /&gt;
     
       <item>
         <title>Crowdworking and web3</title>
-        <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot; target=&quot;_blank&quot;&gt;on my twitter&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Crowdwork organizations are a very necessary part of our future.&lt;/p&gt;
+        <description>&lt;p&gt;Crowdwork organizations are a very necessary part of our future.&lt;/p&gt;
 
 &lt;p&gt;Today companies like Mturk, Scale, Toloka, Hive and many others solving a crucial part of AI - data labeling. But crowd work is so much more than that and should drive other industries.&lt;/p&gt;
 
@@ -216,10 +213,52 @@ And a big part of profits taken in such markets like BPO can be distributed dire
 &lt;p&gt;I think right now we’re in the moment when both crowdworking and web3 movements should be combined to try to build something really meaningful for a lot of people around the globe.&lt;/p&gt;
 
 &lt;p&gt;If you’re working on something like that or want to explore this idea further, let’s connect.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot; target=&quot;_blank&quot;&gt;on my twitter&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 04 Jan 2022 20:06:00 +0300</pubDate>
         <link>http://localhost:4000/general/2022/01/04/crowdworking-and-web3.html</link>
         <guid isPermaLink="true">http://localhost:4000/general/2022/01/04/crowdworking-and-web3.html</guid>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+      <item>
+        <title>Why crypto matters</title>
+        <description>&lt;p&gt;Imagine the world where people don’t lie and cheat.&lt;/p&gt;
+
+&lt;p&gt;The world where people need less negotiation, less lawyers, less compliance procedures, less audits, less bureaucracy. The world where all these freed-up resources can be used to improve productivity.&lt;/p&gt;
+
+&lt;p&gt;This is exactly what crypto brings to the world - &lt;strong&gt;a system where people can be excluded out of the decision making processes and replaced by trustless open sourced apps, which don’t lie and cheat&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot; target=&quot;_blank&quot;&gt;on my twitter&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 Oct 2021 15:42:00 +0300</pubDate>
+        <link>http://localhost:4000/general/2021/10/21/why-crypto-matters.html</link>
+        <guid isPermaLink="true">http://localhost:4000/general/2021/10/21/why-crypto-matters.html</guid>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+      <item>
+        <title>Apps come first. Then comes infrastructure.</title>
+        <description>&lt;p&gt;A breakthrough app which is built for the first time on top of old infrastructure driving the market to create new infrastructure to make it possible to run better and scale faster this new kind of app.&lt;/p&gt;
+
+&lt;p&gt;After, this new level infrastructure gives the ability to create new early-stage breakthrough apps, which again drives infrastructure to grow to the next level.&lt;/p&gt;
+
+&lt;p&gt;It’s happening again and again within the different industries. And it’s better to know at which stage your industry is right now.&lt;/p&gt;
+
+&lt;p&gt;I believe, a couple of industries I’m interested in, like logistics, robotics and space are right now at the end of the latest infrastructure-grow cycle and within the next 10 years we mainly should see new breakthrough applications to appear within them.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot; target=&quot;_blank&quot;&gt;on my twitter&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 18 Jul 2021 13:11:00 +0300</pubDate>
+        <link>http://localhost:4000/general/2021/07/18/apps-come-first.html</link>
+        <guid isPermaLink="true">http://localhost:4000/general/2021/07/18/apps-come-first.html</guid>
         
         
         <category>general</category>

@@ -5,8 +5,6 @@ date:   2022-02-01 14:28:14 +0000
 categories: general
 ---
 
-*Originally posted [on my twitter](https://twitter.com/dashtiev){:target="_blank"}.*
-
 ***This post is in progress***
 
 Let's look at banking systems in the majority of modern countries. Basically, it has 3 layers of data exchange:
@@ -20,3 +18,5 @@ Interesting that if we're looking only at these data layers, w/o looking at othe
 - L(3) - Lightning nodes, similar to bank database, exchange between users of one node.
 
 History rhymes. Or not?
+
+*Originally posted [on my twitter](https://twitter.com/dashtiev){:target="_blank"}.*

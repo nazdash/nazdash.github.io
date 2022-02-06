@@ -5,8 +5,8 @@
     <description>This is a website i'm using to write my thoughts outside of twitter. Sometimes I put here my random side projects.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 06 Feb 2022 18:39:31 +0300</pubDate>
-    <lastBuildDate>Sun, 06 Feb 2022 18:39:31 +0300</lastBuildDate>
+    <pubDate>Sun, 06 Feb 2022 20:54:56 +0300</pubDate>
+    <lastBuildDate>Sun, 06 Feb 2022 20:54:56 +0300</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -245,8 +245,8 @@ And a big part of profits taken in such markets like BPO can be distributed dire
       </item>
     
       <item>
-        <title>Apps come first. Then comes infrastructure.</title>
-        <description>&lt;p&gt;A breakthrough app which is built for the first time on top of old infrastructure driving the market to create new infrastructure to make it possible to run better and scale faster this new kind of app.&lt;/p&gt;
+        <title>Apps come first, then comes infrastructure</title>
+        <description>&lt;p&gt;A breakthrough app which is built for the first time on top of old infrastructure driving the market to create new infrastructure to make it possible to run better and scale faster this new kind of the app.&lt;/p&gt;
 
 &lt;p&gt;After, this new level infrastructure gives the ability to create new early-stage breakthrough apps, which again drives infrastructure to grow to the next level.&lt;/p&gt;
 

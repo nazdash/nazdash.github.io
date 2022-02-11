@@ -88,3 +88,8 @@
   description: Ethereum - Learn by coding.
   link: https://ethereum.org/en/developers/learning-tools/
   
+- type: web3
+  # tags:
+  description: Near Whiteboard series.
+  link: https://www.youtube.com/playlist?list=PL9tzQn_TEuFWweVbfTbaedFdwVrvaYPq4
+  

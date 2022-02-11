@@ -14,7 +14,7 @@ metamask ~ netscape navigator\
 btc ~ vc money\
 smart contract ~ web page\
 jpeg nft ~ online magazine\
-defi ~ online shopping\
+defi ~ online shopping
 
 🤔
 

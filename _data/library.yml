@@ -1,4 +1,4 @@
-- type: web3
+- type: web3, solidity
   # tags:
   description: All-in-one guide for Web3 development from zero to hero.
   link: https://vitto.cc/web3-and-solidity-smart-contracts-development-roadmap/
@@ -92,4 +92,9 @@
   # tags:
   description: Near Whiteboard series.
   link: https://www.youtube.com/playlist?list=PL9tzQn_TEuFWweVbfTbaedFdwVrvaYPq4
+  
+- type: web3
+  # tags:
+  description: Probably the best video I've seen so far on zk-proofs.
+  link: https://www.youtube.com/watch?v=gcKCW7CNu_M
   

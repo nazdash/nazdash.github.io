@@ -27,8 +27,7 @@ The huge BPO industry, **~$250B** in 2021, could be almost completely replaced b
 The majority of micro-tasks workers are living in Third World countries and such jobs are one of the few opportunities for them to be a part of the global economy.
 And a big part of profits taken in such markets like BPO can be distributed directly to all those workers.
 
-Besides that crowdwork tools could be also a way to gain knowledge from well-paid and experienced individuals, e.g. doctors, to build systems based on their combined knowledge.
-
+Besides that crowdwork tools could be also a way to gain knowledge from well-paid and experienced individuals, e.g. doctors, to build systems based on their combined knowledge.\
 Read this small article about it [here](https://www.cnbc.com/2016/06/15/alphabets-eric-schmidt-predicts-what-spark-the-next-100-billion-firm.html).
 
 Now with web3 taking off, I'm thinking about how crowdworking/crowdsourcing idea can evolve further.

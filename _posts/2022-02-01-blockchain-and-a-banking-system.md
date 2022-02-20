@@ -5,8 +5,6 @@ date:   2022-02-01 14:28:14 +0000
 categories: general
 ---
 
-***This post is in progress***
-
 Let's look at banking systems in the majority of modern countries. Basically, it has 3 layers of data exchange:
 - (1) the Central Bank (CB) database, exchange between the CB and commercial banks, to keep comm banks level ledger;
 - (2) interbanking data exchange, exchange directly between banks, like SWIFT;

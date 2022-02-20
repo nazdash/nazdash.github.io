@@ -53,7 +53,7 @@
   description: Free Web Development Resources (twitter thread).
   link: https://twitter.com/denicmarko/status/1277492413032992768
 
-- type: web3
+- type: web3, solidity
   # tags:
   description: Become a Web3 developer for Free (twitter thread).
   link: https://twitter.com/web3university/status/1487022650597724165
@@ -63,7 +63,7 @@
   description: A simple realization of blockchain using Python and Flask.
   link: https://gist.github.com/Eversmile12/f3a2837edb55a4b7de007db3e449c41f
 
-- type: web3
+- type: web3, solidity
   # tags:
   description: 16hrs - Full-stack Blockchain development  course by @web3university contributor @PatrickAlphaC (free).
   link: https://www.youtube.com/watch?v=M576WGiDBdQ&feature=emb_logo
@@ -83,18 +83,17 @@
   description: The optimal token distribution (twitter thread).
   link: https://twitter.com/Cooopahtroopa/status/1478465134599180288
 
-- type: web3
+- type: web3, solidity
   # tags:
   description: Ethereum - Learn by coding.
   link: https://ethereum.org/en/developers/learning-tools/
   
 - type: web3
   # tags:
-  description: Near Whiteboard series.
+  description: Near Whiteboard series - Near team invites different people from industry to deedive in their projetcs.
   link: https://www.youtube.com/playlist?list=PL9tzQn_TEuFWweVbfTbaedFdwVrvaYPq4
   
 - type: web3
   # tags:
   description: Probably the best video I've seen so far on zk-proofs.
   link: https://www.youtube.com/watch?v=gcKCW7CNu_M
-  

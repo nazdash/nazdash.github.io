@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nazir's website</title>
-    <description>This is a website i'm using to write my thoughts outside of twitter. Sometimes I put here my random side projects.</description>
+    <title>Nazir&apos;s website</title>
+    <description>This is a website i&apos;m using to write my thoughts outside of twitter. Sometimes I put here my random side projects.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Feb 2022 22:14:45 +0300</pubDate>
-    <lastBuildDate>Fri, 11 Feb 2022 22:14:45 +0300</lastBuildDate>
+    <pubDate>Wed, 07 Feb 2024 17:05:11 +0100</pubDate>
+    <lastBuildDate>Wed, 07 Feb 2024 17:05:11 +0100</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
         <title>Blockchain and a banking system</title>
-        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;This post is in progress&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Let’s look at banking systems in the majority of modern countries. Basically, it has 3 layers of data exchange:&lt;/p&gt;
+        <description>&lt;p&gt;Let’s look at banking systems in the majority of modern countries. Basically, it has 3 layers of data exchange:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;(1) the Central Bank (CB) database, exchange between the CB and commercial banks, to keep comm banks level ledger;&lt;/li&gt;
   &lt;li&gt;(2) interbanking data exchange, exchange directly between banks, like SWIFT;&lt;/li&gt;
@@ -31,7 +29,7 @@
 
 &lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot; target=&quot;_blank&quot;&gt;on my twitter&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 01 Feb 2022 17:28:14 +0300</pubDate>
+        <pubDate>Tue, 01 Feb 2022 15:28:14 +0100</pubDate>
         <link>http://localhost:4000/general/2022/02/01/blockchain-and-a-banking-system.html</link>
         <guid isPermaLink="true">http://localhost:4000/general/2022/02/01/blockchain-and-a-banking-system.html</guid>
         
@@ -161,7 +159,7 @@ Here’s an example:&lt;br /&gt;
 
 &lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot; target=&quot;_blank&quot;&gt;on my twitter&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 11 Jan 2022 21:16:00 +0300</pubDate>
+        <pubDate>Tue, 11 Jan 2022 19:16:00 +0100</pubDate>
         <link>http://localhost:4000/general/2022/01/11/what-is-a-gas-fee.html</link>
         <guid isPermaLink="true">http://localhost:4000/general/2022/01/11/what-is-a-gas-fee.html</guid>
         
@@ -194,9 +192,8 @@ c) Catalog mapping for e-commerce goods: take goods w/ descriptions, send to peo
 &lt;p&gt;The majority of micro-tasks workers are living in Third World countries and such jobs are one of the few opportunities for them to be a part of the global economy.
 And a big part of profits taken in such markets like BPO can be distributed directly to all those workers.&lt;/p&gt;
 
-&lt;p&gt;Besides that crowdwork tools could be also a way to gain knowledge from well-paid and experienced individuals, e.g. doctors, to build systems based on their combined knowledge.&lt;/p&gt;
-
-&lt;p&gt;Read this small article about it &lt;a href=&quot;https://www.cnbc.com/2016/06/15/alphabets-eric-schmidt-predicts-what-spark-the-next-100-billion-firm.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Besides that crowdwork tools could be also a way to gain knowledge from well-paid and experienced individuals, e.g. doctors, to build systems based on their combined knowledge.&lt;br /&gt;
+Read this small article about it &lt;a href=&quot;https://www.cnbc.com/2016/06/15/alphabets-eric-schmidt-predicts-what-spark-the-next-100-billion-firm.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Now with web3 taking off, I’m thinking about how crowdworking/crowdsourcing idea can evolve further.&lt;/p&gt;
 
@@ -216,7 +213,7 @@ And a big part of profits taken in such markets like BPO can be distributed dire
 
 &lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot; target=&quot;_blank&quot;&gt;on my twitter&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 04 Jan 2022 20:06:00 +0300</pubDate>
+        <pubDate>Tue, 04 Jan 2022 18:06:00 +0100</pubDate>
         <link>http://localhost:4000/general/2022/01/04/crowdworking-and-web3.html</link>
         <guid isPermaLink="true">http://localhost:4000/general/2022/01/04/crowdworking-and-web3.html</guid>
         
@@ -242,7 +239,7 @@ defi ~ online shopping&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot; target=&quot;_blank&quot;&gt;on my twitter&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 28 Dec 2021 13:00:00 +0300</pubDate>
+        <pubDate>Tue, 28 Dec 2021 11:00:00 +0100</pubDate>
         <link>http://localhost:4000/general/2021/12/28/we3-vs-early-web-analogies.html</link>
         <guid isPermaLink="true">http://localhost:4000/general/2021/12/28/we3-vs-early-web-analogies.html</guid>
         
@@ -261,7 +258,7 @@ defi ~ online shopping&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot; target=&quot;_blank&quot;&gt;on my twitter&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 21 Oct 2021 15:42:00 +0300</pubDate>
+        <pubDate>Thu, 21 Oct 2021 14:42:00 +0200</pubDate>
         <link>http://localhost:4000/general/2021/10/21/why-crypto-matters.html</link>
         <guid isPermaLink="true">http://localhost:4000/general/2021/10/21/why-crypto-matters.html</guid>
         
@@ -282,7 +279,7 @@ defi ~ online shopping&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Originally posted &lt;a href=&quot;https://twitter.com/dashtiev&quot; target=&quot;_blank&quot;&gt;on my twitter&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 18 Jul 2021 13:11:00 +0300</pubDate>
+        <pubDate>Sun, 18 Jul 2021 12:11:00 +0200</pubDate>
         <link>http://localhost:4000/general/2021/07/18/apps-come-first.html</link>
         <guid isPermaLink="true">http://localhost:4000/general/2021/07/18/apps-come-first.html</guid>
         

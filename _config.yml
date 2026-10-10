@@ -1,0 +1,34 @@
+title: Nazir's website
+description: Notes on building products and side projects.
+url: "https://nazdash.com"
+baseurl: ""
+author:
+  name: Nazir Dashtiev
+  twitter: dashtiev
+twitter:
+  username: dashtiev
+  card: summary
+github_username: nazdash
+lang: en
+locale: en_US
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope: {path: "_posts/ru"}
+    values: {lang: ru, locale: ru_RU, permalink: "/ru/:year/:month/:day/:title:output_ext"}
+  - scope: {path: "ru"}
+    values: {lang: ru, locale: ru_RU}
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+<p class="muted">{% include date.html date=page.date lang=page.lang year=true %}</p>
+{{ content }}
+{% if page.lang == 'ru' %}
+{% if page.telegram %}<p><em>Оригинал на русском <a href="https://t.me/technodynamism/{{ page.telegram }}" target="_blank">в моём телеграме</a>.</em></p>{% endif %}
+{% if page.twitter %}<p><em>Оригинал на английском <a href="https://x.com/{{ site.author.twitter }}" target="_blank">в моём твиттере</a>. Здесь перевод.</em></p>{% endif %}
+<p><a href="/ru/">&larr; все посты</a></p>
+{% else %}
+{% if page.telegram %}<p><em>Originally posted in Russian <a href="https://t.me/technodynamism/{{ page.telegram }}" target="_blank">on my telegram</a>. This is a translation.</em></p>{% endif %}
+{% if page.twitter %}<p><em>Originally posted in English <a href="https://x.com/{{ site.author.twitter }}" target="_blank">on my twitter</a>.</em></p>{% endif %}
+<p><a href="/">&larr; all posts</a></p>
+{% endif %}

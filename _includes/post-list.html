@@ -1,0 +1,13 @@
+{% assign posts = site.posts | where_exp: "p", "p.lang == include.lang" %}
+{% assign by_year = posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+{% for year in by_year %}
+<h2 class="year">{{ year.name }}</h2>
+<ul class="list">
+  {% for post in year.items %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <span class="muted">{% include date.html date=post.date lang=include.lang %}</span>
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %}

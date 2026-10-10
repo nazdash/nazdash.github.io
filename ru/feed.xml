@@ -1,0 +1,5 @@
+---
+permalink: /ru/feed.xml
+lang: ru
+---
+{% include feed.xml lang="ru" home="/ru/" filter="ru" %}

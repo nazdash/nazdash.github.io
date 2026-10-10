@@ -1,0 +1,4 @@
+---
+permalink: /feed.xml
+---
+{% include feed.xml lang="en" home="/" filter=nil %}

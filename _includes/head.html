@@ -1,0 +1,19 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  {%- if page.lang == 'ru' and page.en %}
+  <link rel="alternate" hreflang="ru" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" hreflang="en" href="{{ page.en | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ page.en | absolute_url }}">
+  {%- elsif page.lang != 'ru' and page.ru %}
+  <link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" hreflang="ru" href="{{ page.ru | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}">
+  {%- endif %}
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{% if page.lang == 'ru' %}/ru/feed.xml{% else %}/feed.xml{% endif %}">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/main.css?v={{ site.time | date: '%s' }}">
+</head>

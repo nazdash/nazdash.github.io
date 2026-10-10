@@ -1,0 +1,14 @@
+<footer>
+  <a href="https://x.com/{{ site.author.twitter }}">x</a>
+  <a href="https://github.com/{{ site.github_username }}">github</a>
+  <a href="https://www.linkedin.com/in/ndashtiev/">linkedin</a>
+  <a href="{% if page.lang == 'ru' %}/ru/feed.xml{% else %}/feed.xml{% endif %}">rss</a>
+  <span class="lang">
+    {%- if page.lang == 'ru' -%}
+    <a href="{{ page.en | default: '/' }}">en</a> / <span aria-current="true">ru</span>
+    {%- else -%}
+    <span aria-current="true">en</span> / <a href="{{ page.ru | default: '/ru/' }}">ru</a>
+    {%- endif -%}
+  </span>
+</footer>
+<script src="/assets/decode.js?v={{ site.time | date: '%s' }}" defer></script>

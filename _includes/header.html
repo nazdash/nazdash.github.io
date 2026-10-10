@@ -1,0 +1,15 @@
+{% assign ru = page.lang == 'ru' %}
+<header>
+  <a class="name decode" href="{% if ru %}/ru/{% else %}/{% endif %}">{{ site.title }}</a>
+  <nav>
+    {% if ru %}
+    <a href="/ru/"{% if page.url == '/ru/' or page.layout == 'post' %} aria-current="page"{% endif %}>посты</a>
+    <a href="/ru/projects/"{% if page.url contains '/projects' %} aria-current="page"{% endif %}>проекты</a>
+    <a href="/ru/about/"{% if page.url contains '/about' %} aria-current="page"{% endif %}>обо мне</a>
+    {% else %}
+    <a href="/"{% if page.url == '/' or page.layout == 'post' %} aria-current="page"{% endif %}>posts</a>
+    <a href="/projects/"{% if page.url contains '/projects' %} aria-current="page"{% endif %}>projects</a>
+    <a href="/about/"{% if page.url contains '/about' %} aria-current="page"{% endif %}>about</a>
+    {% endif %}
+  </nav>
+</header>

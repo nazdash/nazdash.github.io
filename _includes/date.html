@@ -1,0 +1,7 @@
+{%- if include.lang == 'ru' -%}
+{%- assign m = "января,февраля,марта,апреля,мая,июня,июля,августа,сентября,октября,ноября,декабря" | split: "," -%}
+{%- assign i = include.date | date: "%-m" | minus: 1 -%}
+{{ include.date | date: "%-d" }} {{ m[i] }}{% if include.year %} {{ include.date | date: "%Y" }}{% endif %}
+{%- else -%}
+{{ include.date | date: "%b %-d" }}{% if include.year %}, {{ include.date | date: "%Y" }}{% endif %}
+{%- endif -%}

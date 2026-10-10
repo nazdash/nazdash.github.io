@@ -1,0 +1,41 @@
+:root { --bg: #fff; --fg: #1b1b1b; --muted: #777; --line: #e8e8e8; --link: #1a5fd6; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #121212; --fg: #e6e6e6; --muted: #8a8a8a; --line: #2a2a2a; --link: #8ab4f8; }
+}
+body {
+  max-width: 860px; margin: 0 auto; padding: 0 20px;
+  background: var(--bg); color: var(--fg);
+  font: 17px/1.6 Inter, system-ui, sans-serif;
+}
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1 { font-size: 1.6rem; font-weight: 600; line-height: 1.25; margin: 0 0 .5rem; }
+h2, h3, h4, h5 { font-size: 1.25rem; font-weight: 600; margin: 2rem 0 .5rem; }
+h2.year { font-size: 1rem; color: var(--muted); margin: 1.5rem 0 .5rem; }
+h2.year:first-child { margin-top: 0; }
+blockquote { margin: 0 0 1rem; padding-left: 1rem; border-left: 2px solid var(--line); color: var(--muted); }
+pre { background: none; padding: 0; overflow-x: auto; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 2rem 0; }
+p, ul, ol { margin: 0 0 1rem; }
+img { max-width: 100%; height: auto; display: block; margin: 1.5rem auto; }
+code { font-family: ui-monospace, Menlo, monospace; font-size: .9em; }
+.muted { color: var(--muted); }
+
+header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: .5rem 1.5rem; padding: 2rem 0; }
+.name { color: var(--fg); font-weight: 600; white-space: nowrap; }
+nav { display: flex; gap: 1.25rem; }
+nav a { color: var(--muted); }
+nav a[aria-current] { color: var(--fg); }
+main { padding: 1rem 0 3rem; }
+footer { display: flex; gap: 1.25rem; padding: 1rem 0 3rem; border-top: 1px solid var(--line); }
+footer a { color: var(--muted); }
+footer .lang { margin-left: auto; color: var(--line); }
+footer .lang [aria-current] { color: var(--fg); }
+
+.list { list-style: none; padding: 0; }
+.list li { display: flex; justify-content: space-between; gap: 1.5rem; margin-bottom: .6rem; }
+.list .muted { text-align: right; white-space: nowrap; }
+@media (max-width: 600px) {
+  .list li { flex-direction: column; gap: 0; margin-bottom: 1rem; }
+  .list .muted { text-align: left; white-space: normal; }
+}
